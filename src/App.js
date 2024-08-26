@@ -48,12 +48,11 @@ function App() {
   </select> <br/>
 
 <input onChange= {onChangeLinea1} type='text' placeholder='Escribí algo'></input> <br/>
-<input onChange= {onChangeLinea2} type='text' placeholder='Esto aparece segundo'></input> <br/>
 <button onClick={onClickExportar}>Exportar</button>
 
 <div className='fotos' id='fotos'>
   <span>{linea1}</span> <br/> 
-  <span>{linea2}</span> <br/> 
+ 
   <img src={"img/" + imagen + ".jpg" }/>
 </div>
 
