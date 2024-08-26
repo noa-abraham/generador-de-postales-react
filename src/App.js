@@ -41,7 +41,7 @@ function App() {
 <h1>GENERADOR DE POSTALES</h1>
 
   <select onChange={onChangeImagen}> 
-    <option value="chico azul">Chico azul</option> <br/>
+    <option value="chico azul">Chico azul</option> 
     <option value="cabina">Cabina</option>
     <option value="publico">Publico</option>
     <option value="beso">Beso</option>
